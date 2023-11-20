@@ -1,7 +1,6 @@
 # Census
 
 ## Table of Contents
-#
 + [What This Documentation Is and Is Not?](#item-one)
 + [What Census products does this document focus on?](##item-two)
 + [What is ACS  1-Year Estimates?](##item-three)
@@ -17,14 +16,12 @@
 
 ## What This Documentation Is and Is Not?  
  <a id="item-one"></a>
-#
 Welcome to this concise tutorial/documentation, born out of hands-on interactions with various US Census Bureau products and the insights gained while working with them. While specific questions are best directed to the official website, our main aim is to consolidate frequently used information, offering a quick kick-start for your Census journey.
 
 **Acknowledgment:** The resources compiled in this documentation are sourced from the US Census Bureau, and it is important to note that this guide is not intended as a replacement for official Census Bureau materials. For the most accurate and up-to-date information, always refer to the official resources provided by the US Census Bureau.
 
 ##  What Census products does this document focus on?
  <a id="item-two"></a>
-#
 While there are many survey, programs and census conducted by U.S. Census Bureau, this documentation specifically focuses on some commonly used products:
 
 -   ACS: American Community Survey
@@ -34,7 +31,6 @@ While there are many survey, programs and census conducted by U.S. Census Bureau
 
 ## What is ACS  1-Year Estimates?
  <a id="item-three"></a>
-#
 The American Community Survey (ACS) 1-Year Estimate is an annual survey conducted by the U.S. Census Bureau to provide timely and reliable demographic, social, economic, and housing information for communities across the United States. 
 
 ### Key Points:
@@ -62,8 +58,6 @@ The American Community Survey (ACS) 1-Year Estimate is an annual survey conducte
 
 ## What is ACS 5-Year Estimates?
  <a id="item-four"></a>
-#
-
 The American Community Survey (ACS) is an ongoing survey that provides data every year -- giving communities the current information they need to plan investments and services.The 5-year estimates from the ACS are [period estimates](https://www.census.gov/newsroom/blogs/random-samplings/2022/03/period-estimates-american-community-survey.html) that represent data collected over a period of time. The primary advantage of using multiyear estimates is the increased statistical reliability of the data for less populated areas and small population subgroups.
 
 The below image from the US Census Bureau, effectively illustrates the time period covered by ACS 1-Year and 5-Year estimates.
@@ -92,18 +86,15 @@ The below image from the US Census Bureau, effectively illustrates the time peri
 
 ## When to use 1-year or 5-year Estimates?
  <a id="item-five"></a>
-#
 For guidance on when to utilize either the 1-Year or 5-Year Estimates, refer to this [resource](https://www.census.gov/programs-surveys/acs/guidance/estimates.html), which provides a clear comparison of the two and offers recommendations on suitable use cases for each.
 
 
 ## What is Decennial Census?
  <a id="item-six"></a>
-#
 
 
 ## What Variables are Available in a Dataset/Table?
  <a id="item-seven"></a>
-#
 Each data product, in conjunction with its corresponding table or dataset, outlines the variables available for a specific year under the 'Detailed Table Variables' section.
 
 For example, to identify the variables for ACS-5 year estimates in 2017:
@@ -121,7 +112,6 @@ Alternatively, if you already know the specific census product and dataset, you 
 
 ## How do I find the geographical coverage of a dataset/table?
  <a id="item-eight"></a>
-#
 **Note: Not all geographies are uniformly supported across all years.** 
 
 Each data product, along with its corresponding table or dataset, specifies its geographical coverage for a particular year in the 'Supported Geography' section.
@@ -139,15 +129,12 @@ Alternatively, if you already know the specific census product and dataset, you 
 
 ## How do you extract the data?
  <a id="item-nine"></a>
-#
 
 ## How can I interact with census data to explore specific variables?
  <a id="item-ten"></a>
-#
 You can navigate census data effortlessly and explore specific variables through the user-friendly interface of [data.census.gov](https://data.census.gov/)
 
 ## Where can I connect with experienced professionals to discuss census data?
  <a id="item-eleven"></a>
-#
 The Developer’s Forum on [Slack](https://uscensusbureau.slack.com/) - is an active community that proves invaluable for obtaining expert answers to your queries from the knowledgeable professionals at the U.S. Census Bureau.
   
