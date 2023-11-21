@@ -151,8 +151,15 @@ Alternatively, if you already know the specific census product and dataset, you 
 ## How do you extract the data?
  <a id="item-ten"></a>
 
- - Extract the key
- 
+### How to Obtain Your Census API Key?
+To obtain your Census API Key, follow these steps:
+
+1. Sign up on the Census Bureau's API platform by visiting [this link](https://api.census.gov/data/key_signup.html).
+2. Complete the registration process.
+3. You will receive an email containing your Census API Key.
+
+Once you have obtained your API key, you can use it to access the Census Bureau's data through their API.
+
 
 ## How can I interact with census data to explore specific variables?
  <a id="item-eleven"></a>
