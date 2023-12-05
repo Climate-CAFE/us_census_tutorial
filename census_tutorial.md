@@ -10,7 +10,7 @@
 + [What is the difference between Decennial and Census?](#item-seven)
 + [What Variables are Available in a Dataset/Table?](#item-eight)
 + [How do I find the geographical coverage of a dataset/table?](#item-nine)
-+ [How do you extract the data?](#item-ten)
++ [How to Obtain Your Census API Key??](#item-ten)
 + [How can I interact with census data to explore specific variables?](#item-eleven)
 + [Where can I connect with experienced professionals to discuss census data?](#item-twelve)
 
@@ -148,10 +148,9 @@ Alternatively, if you already know the specific census product and dataset, you 
     
 -   For our ACS5 2017 example mentioned earlier, you can access the supported geographies for '**Detailed** Table' through the following URL: [https://api.census.gov/data/2017/acs/acs5/geography.html](https://api.census.gov/data/2017/acs/acs5/geography.html). This allows you to determine, for example, that the zip code tabulation area is covered in ACS5 for the year 2017 but not in ACS1 for the same year.
 
-## How do you extract the data?
+## How to Obtain Your Census API Key?
  <a id="item-ten"></a>
 
-### How to Obtain Your Census API Key?
 To obtain your Census API Key, follow these steps:
 
 1. Sign up on the Census Bureau's API platform by visiting [this link](https://api.census.gov/data/key_signup.html).
