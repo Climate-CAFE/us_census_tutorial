@@ -32,7 +32,9 @@ The script necessitates the following arguments:
 - variable_name: The name you want to assign to your derived variable. (for example: pct_owner_occ)
 - variable_dict: The dictionary that is defined for the variable. We will discuss it in detail below.
 
-IMPORTANT NOTE: YOU WILL NEED TO REPLACE THE VARIABLE DICT WITH YOUR DEFINED VARIABLE DICTIONARY IN THE MAIN FUNCTION
+IMPORTANT NOTE: 
+- ADD YOUR API_KEY in the global variable defined below.
+- YOU WILL NEED TO REPLACE THE VARIABLE DICT WITH YOUR DEFINED VARIABLE DICTIONARY IN THE MAIN FUNCTION
 
 
 ==========
@@ -48,12 +50,22 @@ our file name would be: `pct_owner_occ_acs5_2013_county.csv`
 The file would contain the following columns:
 county | state | pct_owner_occ | year
 
+=======================
+4. RUNNING THE FILE
+=======================
+
+To run the script with the desired arguments, use the following command in your terminal or command prompt:
+
+`python census_custom_variable_script.py --year 2018 --geo_type county --census_type acs --table_name acs1 --variable_name pct_owner_occ`
+
+IMPORTANT: Add your API_KEY in the global variable defined below.
+
 ===========================
-4. VARIABLE DICTIONARY
+5. VARIABLE DICTIONARY
 ===========================
 
 =============================
-4.1 FORMAT OF THE DICTIONARY
+5.1 FORMAT OF THE DICTIONARY
 =============================
 
 Each derived variable is defined as the sum of variables in the numerator list divided by the sum of variables in the denominator list. 
@@ -95,7 +107,7 @@ The example below illustrates the required format for the variable dictionary, w
 
 
 ================================
-4.2 HOW TO BUILD THE DICTIONARY
+5.2 HOW TO BUILD THE DICTIONARY
 ================================
 
 Let's illustrate the process of building a dictionary for obtaining ACS 5-Year Estimates for the percentage of housing units occupied by their owners (pct_owner_occ) for the years 2013 - 2017.
@@ -141,8 +153,7 @@ import pandas as pd
 import numpy as np
 
 # insert your census api key here
-API_KEY = '0fec0de3c4e525041f1101feb0c3a41be9b4a007'
-# API_KEY= <insert your key here> api_key = '0fec0de3c4e525041f1101feb0c3a41be9b4a007'
+API_KEY= '<insert your key here> '
 
 def get_data(year, geo_type, table_name, variable_list, census_type):
 
