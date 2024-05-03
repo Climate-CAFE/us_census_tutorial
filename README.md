@@ -170,7 +170,7 @@ The Developer’s Forum on [Slack](https://uscensusbureau.slack.com/) - is an ac
   
 ## How do I download the values of a specific census variable?
 The [census_script.py](./census_script.py) script contains code to download the variables for a specific georgraphical and time resolution.
-The [census_custom_variables_script.py](./census_custom_variables_script.py) script contains code that allows to extract custom variables for a specific geographical and time resolution.
+The [census_custom_variable_script.py](./census_custom_variable_script.py) script contains code that allows to extract custom variables for a specific geographical and time resolution.
 
 # How do I choose variables from Census datasets?
 Follow this notebook [acs5_vars_nlp_exploration.ipynb](/acs5_vars_nlp_exploration.ipynb) where you can leverage basic NLP to explore the extensive number of variables US Census surveys/datasets offer.
