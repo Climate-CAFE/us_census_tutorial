@@ -19,7 +19,7 @@
  <a id="item-one"></a>
 Welcome to this concise tutorial/documentation, born out of hands-on interactions with various US Census Bureau products and the insights gained while working with them. While specific questions are best directed to the official website, our main aim is to consolidate frequently used information, offering a quick kick-start for your Census journey.
 
-**Acknowledgment:** The resources compiled in this documentation are sourced from the US Census Bureau, and it is important to note that this guide is not intended as a replacement for official Census Bureau materials. For the most accurate and up-to-date information, always refer to the official resources provided by the US Census Bureau.
+**Acknowledgment:** The resources compiled in this documentation are sourced from the US Census Bureau, and it is important to note that this guide is not intended as a replacement for [official Census Bureau materials](https://www.census.gov/data). For the most accurate and up-to-date information, always refer to the official resources provided by the US Census Bureau.
 
 ##  What Census products does this document focus on?
  <a id="item-two"></a>
