@@ -132,7 +132,7 @@ For further information refer to this [page](https://www.census.gov/programs-sur
 It is possible to navigate through the [Census API webpage](https://www.census.gov/programs-surveys/acs/data/data-via-api.html) to find the geographical coverage for each data product, along with its corresponding table or dataset,  in a particular year.
 
 For instance, if you wish to identify the supported geography for ACS-5 year 2013-2017 estimates, you have to fill the specifics in the following url:
-```
+```ruby
 https://api.census.gov/data/<year>/<product_name>/<dataset>/geography.html
 ```
     
@@ -151,7 +151,7 @@ For our ACS5 2013-2017 example, you can access the supported geographies through
 It is possible to navigate through the [Census API webpage](https://www.census.gov/programs-surveys/acs/data/data-via-api.html) to find the list of variables available for each census dataset in a particular year.
 
 For instance, if you want the list of variables for the ACS-5 year 2013-2017 table, you have to fill the specifics in the following url:
-```
+```ruby
 https://api.census.gov/data/<year>/<product_name>/<dataset>/variable.html
 ```
 
