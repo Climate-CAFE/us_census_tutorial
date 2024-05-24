@@ -101,7 +101,7 @@ The below image from the US Census Bureau, effectively illustrates the time peri
 For guidance on when to utilize either the 1-Year or 5-Year Estimates, refer to this [resource](https://www.census.gov/programs-surveys/acs/guidance/estimates.html), which provides a clear comparison of the two and offers recommendations on suitable use cases for each.
 
 
-## [Q4] What is Decennial Census?
+## [Q4] What is the Decennial Census?
  <a id="item-four"></a>
 
  Every 10 years, the U.S. Census Bureau conducts a census to determine the number of people living in the United States. 
@@ -138,13 +138,13 @@ https://api.census.gov/data/<year>/<product_name>/<dataset>/geography.html
     
 For our ACS5 2013-2017 example, you can access the supported geographies through the following URL: [https://api.census.gov/data/2017/acs/acs5/geography.html](https://api.census.gov/data/2017/acs/acs5/geography.html). The retrieved html  allows shows, for example, that the zip code tabulation area is covered in the 2013-2017 ACS5.
 
-> [!IMPORTANT]
->## [Q7] How do I download the values of a specific census variable? 
-> <a id="item-seven"></a>
->
->The [census_script.py](./census_script.py) script contains code to download the *census variables* for a specific geographical and time resolution.
->
->The [census_custom_variable_script.py](./census_custom_variable_script.py) script contains code that allows to extract *custom census variables* for a specific geographical and time resolution.
+
+## [Q7] How do I download the values of a specific census variable? 
+<a id="item-seven"></a>
+
+The [census_script.py](./census_script.py) script contains code to download the *census variables* for a specific geographical and time resolution.
+
+The [census_custom_variable_script.py](./census_custom_variable_script.py) script contains code that allows to extract *custom census variables* for a specific geographical and time resolution.
 
 ## [Q8] What Variables are Available in a Dataset/Table?
  <a id="item-eight"></a>
@@ -158,11 +158,11 @@ https://api.census.gov/data/<year>/<product_name>/<dataset>/variable.html
 
 For our ACS5 2013-2017 example, you can access the list of variables through the following URL: [https://api.census.gov/data/2017/acs/acs5/variables.html](https://api.census.gov/data/2017/acs/acs5/variables.html). 
 
-> [!IMPORTANT]
-> ## [Q9] How do I choose variables from Census datasets?
-> <a id="item-nine"></a>
->
->Follow this notebook [acs5_vars_nlp_exploration.ipynb](/acs5_vars_nlp_exploration.ipynb) where you can leverage basic NLP to explore the extensive number of variables US Census surveys/datasets offer.
+
+## [Q9] How do I choose variables from Census datasets?
+<a id="item-nine"></a>
+
+Follow this notebook [acs5_vars_nlp_exploration.ipynb](/acs5_vars_nlp_exploration.ipynb) where you can leverage basic NLP to explore the extensive number of variables US Census surveys/datasets offer.
 
 
 ## [Q10] How to Obtain Your Census API Key?
