@@ -138,6 +138,7 @@ https://api.census.gov/data/<year>/<product_name>/<dataset>/geography.html
     
 For our ACS5 2013-2017 example, you can access the supported geographies through the following URL: [https://api.census.gov/data/2017/acs/acs5/geography.html](https://api.census.gov/data/2017/acs/acs5/geography.html). The retrieved html  allows shows, for example, that the zip code tabulation area is covered in the 2013-2017 ACS5.
 
+> [!IMPORTANT]
 >## [Q7] How do I download the values of a specific census variable? 
 > <a id="item-seven"></a>
 >
@@ -157,6 +158,7 @@ https://api.census.gov/data/<year>/<product_name>/<dataset>/variable.html
 
 For our ACS5 2013-2017 example, you can access the list of variables through the following URL: [https://api.census.gov/data/2017/acs/acs5/variables.html](https://api.census.gov/data/2017/acs/acs5/variables.html). 
 
+> [!IMPORTANT]
 > ## [Q9] How do I choose variables from Census datasets?
 > <a id="item-nine"></a>
 >
