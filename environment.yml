@@ -1,0 +1,19 @@
+name: us_census_tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - census
+  - nltk
+  - gensim
+  - scipy=1.10.1
+  - scikit-learn
+  - pip
+  - pip:
+    - ipykernel
+    - censusdis
+    - plotly
+
