@@ -13,6 +13,8 @@ This documentation specifically focuses on the following  commonly used products
 >
 >In addition, the Developer’s Forum on [Slack](https://uscensusbureau.slack.com/) - is an active community that proves invaluable for obtaining expert answers to your queries from the knowledgeable professionals at the U.S. Census Bureau.
 
+---- 
+
 ## FAQs
 + [[Q1] What are ACS  1-Year Estimates?](##item-one)
 + [[Q2] What are ACS 5-Year Estimates?](#item-two)
@@ -174,3 +176,10 @@ The [census_custom_variable_script.py](./census_custom_variable_script.py) scrip
 <a id="item-ten"></a>
 
 Follow this notebook [acs5_vars_nlp_exploration.ipynb](/acs5_vars_nlp_exploration.ipynb) where you can leverage basic NLP to explore the extensive number of variables US Census surveys/datasets offer.
+
+----
+
+## Additional resources
+
+- [The online home of Analyzing US Census Data: Methods, Maps, and Models in R, a book published with CRC Press in 2023.](https://walker-data.com/census-r/index.html)
+- [Getting census data over time. Andrew P Wheeler](https://andrewpwheeler.com/2022/05/27/getting-census-data-over-time/)
